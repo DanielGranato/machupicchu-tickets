@@ -60,6 +60,7 @@
 .ticket {
     font-size: 1.5em;
     margin-bottom: 30px;
+    margin-top: 20px;
     display: flex;
     gap: 8px;
 }
