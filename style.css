@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e8f1ff;
+    color: #3175d4;
+}
+
+.logo {
+    margin-left: 60px;
+    height: 70px;
+}
+
 .hero_section {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -45,12 +58,14 @@
 .form {
     margin-top: 60px;
     margin-right: 20px;
-    background: #0952b8;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
     padding: 2rem;
     margin-bottom: -200px;
     z-index: 2;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
     color: white;
     height: 620px;
     width: 400px;
