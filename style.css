@@ -6,14 +6,31 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #e8f1ff;
     color: #3175d4;
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 10px;
     height: 70px;
+}
+
+.travel {
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3175d4;
+    font-weight: bold;
 }
 
 .hero_section {
