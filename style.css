@@ -68,6 +68,14 @@
     width: 30px;
 }
 
+.location {
+    width: 17px;
+}
+
+.altitude {
+    width: 20px;
+}
+
 .section2 {
     margin-left: 70px;
 }
