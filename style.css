@@ -140,3 +140,61 @@ nav a {
     min-width: 80px;
     font-size: 0.9em;
 }
+
+
+
+    @media (max-width: 480px) {
+
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .travel {
+        margin: 0;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav_icon {
+        margin-left: 0;
+    }
+
+    .hero_section {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 100vh;
+        background-position: top center;
+        background-size: 400%;
+    }
+
+    .hero_title {
+        margin: 2rem auto;
+        width: 90%;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .form {
+        width: 80%;
+        margin: 2rem auto;
+        height: 400px;
+    }
+
+    .hero_content {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero_card {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+    }
+
+}
