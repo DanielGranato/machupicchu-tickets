@@ -75,6 +75,7 @@ nav a {
     gap: 2rem;
     color: #0952b8;
     margin-right: 30px;
+    margin-top: 3%;
 }
 
 .form {
@@ -89,7 +90,6 @@ nav a {
     z-index: 2;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
     color: rgb(56, 54, 54);
-    height: 620px;
     width: 400px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -151,10 +151,15 @@ input, select, textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-width: 40px;
     font-size: 0.9em;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #6591ef;
 }
 
 .price_box {
-    margin-top: 50px;
+    margin-top: 47px;
     margin-bottom: 20px;
 }
 
@@ -162,7 +167,19 @@ input, select, textarea {
     font-size: 2rem;
 }
 
-
+.button_form {
+    padding: 0.8em;
+    background-color: #9cadcf;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 40px;
+    font-size: 0.9em;
+    text-align: center;
+    border: none;
+}
 
     @media (max-width: 480px) {
 
