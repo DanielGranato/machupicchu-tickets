@@ -75,7 +75,7 @@ nav a {
     gap: 2rem;
     color: #0952b8;
     margin-right: 30px;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .form {
@@ -159,8 +159,8 @@ input, select, textarea {
 }
 
 .price_box {
-    margin-top: 47px;
-    margin-bottom: 20px;
+    margin-top: 45px;
+    margin-bottom: 0px;
 }
 
 #total {
@@ -168,15 +168,13 @@ input, select, textarea {
 }
 
 .button_form {
-    padding: 0.8em;
-    background-color: #9cadcf;
+    padding: 0.6em;
+    background-color: #cbced4;
     border-radius: 8px;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: rgb(9, 9, 9);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    min-width: 40px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
     border: none;
 }
