@@ -153,6 +153,15 @@ input, select, textarea {
     font-size: 0.9em;
 }
 
+.price_box {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#total {
+    font-size: 2rem;
+}
+
 
 
     @media (max-width: 480px) {
