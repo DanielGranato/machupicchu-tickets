@@ -94,6 +94,18 @@ nav a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+input, select, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: none;
+}
+
 .ticket {
     font-size: 1.5em;
     margin-bottom: 30px;
