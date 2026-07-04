@@ -200,11 +200,11 @@ input, select, textarea {
     }
 
     form {
-    margin-top: 3rem;
-    padding: 2rem;
-    margin-right: 0;
-    margin-bottom: -11rem;
-    border-radius: 0;
+        margin-top: 3rem;
+        padding: 2rem;
+        margin-right: 0;
+        margin-bottom: -11rem;
+        border-radius: 0;
     }
 
     .hero_content {
@@ -218,12 +218,19 @@ input, select, textarea {
         text-align: center;
         margin-right: 0;
         width: 100vw;
+        padding: 2rem 0;
     }
 
     .section2 {
-    margin-left: 4rem;
-    margin-top: 2rem;
-    display:flex;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        display:flex;
+    }
+
+    .text {
+        width: 70%;
+        display: inline-block;
+        text-align: center;
     }
 
 }
