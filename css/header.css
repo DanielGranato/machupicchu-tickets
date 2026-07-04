@@ -1,0 +1,35 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e8f1ff;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 70px;
+}
+
+.travel {
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    gap: 0.4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3175d4;
+    font-weight: bold;
+}
+
+.nav_icon {
+    height: 20px;
+    margin-left: 70px;
+}

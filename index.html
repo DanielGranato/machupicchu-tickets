@@ -1,99 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Machu Picchu</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img src="img/logo.png" alt="" class="logo">
-        <h2 class="travel">Travel</h2>
-        <nav>
-            <img src="img/photo-camera.png" alt="" class="nav_icon">
-            <a href="">destinations</a>
-            <img src="img/shopping-cart.png" alt="" class="nav_icon">
-            <a href="">shop</a>
-            <img src="img/user.png" alt="" class="nav_icon">
-            <a href="">login</a>
-        </nav>
+      <a href="index.html" title="back to home">
+        <img src="img/logo.png" alt="" class="logo" />
+      </a>
+      <h2 class="travel">Travel</h2>
+      <nav>
+        <img src="img/photo-camera.png" alt="" class="nav_icon" />
+        <a href="#" title="go destinations page">destinations</a>
+        <img src="img/shopping-cart.png" alt="" class="nav_icon" />
+        <a href="#" title="go to shop page">shop</a>
+        <img src="img/user.png" alt="" class="nav_icon" />
+        <a href="#" title="go to login page">login</a>
+      </nav>
     </header>
     <main>
+      <section class="hero_section">
+        <div class="hero_title">
+          <h1>Come to Machu Picchu with us</h1>
+        </div>
+        <aside class="form">
+          <form action="" method="get">
+            <h2 class="ticket">
+              <img src="img/icons8-ticket-48.png" alt="" class="icon" />
+              Buy your ticket
+            </h2>
 
-        <section class="hero_section">
-            <div class="hero_title">
-                <h1>Come to Machu Picchu with us</h1>
+            <h3>Destination</h3>
+            <br />
+
+            <label for="circuit">Select the circuit you want to visit:</label
+            ><br />
+            <select id="circuit" name="userCircuit">
+              <option value="circuit1">Circuit 1- Panoramic</option>
+              <option value="circuit2">Circuit 2- Classic Circuit</option>
+              <option value="circuit4">Circuit 3- MachuPicchu Realeza</option>
+            </select>
+            <br />
+            <label for="route">Select your tour route:</label><br />
+            <select id="route" name="userRoute">
+              <option value="route1">Route1</option>
+              <option value="route2">Route2</option>
+              <option value="route3">Route3</option>
+            </select>
+            <br />
+
+            <label for="birthDate">Date</label>
+            <input id="birthDate" type="date" name="userBirthDate" />
+            <br />
+
+            <div class="price_box">
+              <h3>total</h3>
+              <p id="total">$ 0,00</p>
             </div>
-            <aside class="form">
-                <form action="" method="get">
+            <br />
+            <button class="button_form" type="submit">submit</button>
+          </form>
+        </aside>
 
-                    <h2 class="ticket">
-                        <img src="img/icons8-ticket-48.png" alt="" class="icon">
-                        Buy your ticket
-                    </h2>
-
-                    <h3>Destination</h3><br>
-
-                        <label for="circuit">Select the circuit you want to visit:</label><br>
-                        <select id="circuit" name="userCircuit">
-                            <option value="circuit1">Circuit 1- Panoramic</option>
-                            <option value="circuit2">Circuit 2- Classic Circuit</option>
-                            <option value="circuit4">Circuit 3- MachuPicchu Realeza</option>
-                        </select>
-                        <br>
-                        <label for="route">Select your tour route:</label><br>
-                        <select id="route" name="userRoute">
-                            <option value="route1">Route1</option>
-                            <option value="route2">Route2</option>
-                            <option value="route3">Route3</option>
-                        </select>
-                        <br>
-
-                        <label for="birthDate">Date</label>
-                        <input id="birthDate" type="date" name="userBirthDate">
-                        <br>
-
-                        <div class="price_box">
-                            <h3>total</h3>
-                            <p id="total">$ 0,00</p>
-                        </div>
-                        <br>
-                    <button class="button_form" type="submit">submit</button>
-                </form>
-            </aside>
-
-            <div class="hero_content">
-                <div class="hero_card">
-
-                    <div class="info">
-                        <h3>
-                            <img src="img/location.png" alt="" class="location">
-                            Location
-                        </h3>
-                        <p class="text">210 km from the city of Cusco-Valle del Ururbamba</p>
-                    </div>
-
-                    <div class="info">
-                        <h3>
-                            <img src="img/altitude.png" alt="" class="altitude">
-                            Altitude
-                        </h3>
-                        <p class="text">2,430 m.s.n.m</p>
-                    </div>
-
-                    <a href="http://google.com/maps/place/machu+picchu/data=!4m2!3m1!1s0x916d9a5f89555555:0x3a10370ea4a01a27?sa=X&ved=1t:155783&ictx=111" target="_blank" class="button">map</a>
-                </div>
-                
+        <div class="hero_content">
+          <div class="hero_card">
+            <div class="info">
+              <h3>
+                <img src="img/location.png" alt="" class="location" />
+                Location
+              </h3>
+              <p class="text">
+                210 km from the city of Cusco-Valle del Ururbamba
+              </p>
             </div>
-        </section>
 
-        <section class="section2">
-            <h2>under construction</h2>
-        </section>
+            <div class="info">
+              <h3>
+                <img src="img/altitude.png" alt="" class="altitude" />
+                Altitude
+              </h3>
+              <p class="text">2,430 m.s.n.m</p>
+            </div>
 
+            <a
+              href="http://google.com/maps/place/machu+picchu/data=!4m2!3m1!1s0x916d9a5f89555555:0x3a10370ea4a01a27?sa=X&ved=1t:155783&ictx=111"
+              target="_blank"
+              class="button"
+              >map</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <img src="/img/pointing-to-right.png" alt="" class="finger_point" />
+        <h2 class="section2_title">
+          Check out <br />some amazing photos posted by our team:
+        </h2>
+      </section>
     </main>
     <footer></footer>
-    
-</body>
+
+    <script src="carousel.js"></script>
+  </body>
 </html>
