@@ -172,6 +172,7 @@ input, select, textarea {
 
     .travel {
         margin: 0;
+        display: none;
     }
 
     nav {
@@ -192,8 +193,8 @@ input, select, textarea {
     }
 
     .hero_title {
-        margin: 2rem auto;
-        width: 90%;
+        margin: 1.2rem auto;
+        width: 70%;
         text-align: center;
         font-size: 1.6rem;
     }
@@ -205,7 +206,7 @@ input, select, textarea {
     }
 
     .hero_content {
-        margin-top: 2rem;
+        margin-top: 10rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -214,6 +215,12 @@ input, select, textarea {
         flex-direction: column;
         text-align: center;
         margin-right: 0;
+    }
+
+    .section2 {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    display:flex;
     }
 
 }
