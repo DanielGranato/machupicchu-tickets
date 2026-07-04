@@ -199,10 +199,12 @@ input, select, textarea {
         font-size: 1.6rem;
     }
 
-    .form {
-        width: 80%;
-        margin: 2rem auto;
-        height: 400px;
+    form {
+    margin-top: 3rem;
+    padding: 2rem;
+    margin-right: 0;
+    margin-bottom: -11rem;
+    border-radius: 0;
     }
 
     .hero_content {
@@ -215,6 +217,7 @@ input, select, textarea {
         flex-direction: column;
         text-align: center;
         margin-right: 0;
+        width: 100vw;
     }
 
     .section2 {
