@@ -36,3 +36,6 @@ nav a {
     margin-left: 4rem;
 }
 
+.menu {
+    display: none;
+}

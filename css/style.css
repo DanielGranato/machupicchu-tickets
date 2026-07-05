@@ -165,7 +165,7 @@ input, select, textarea {
     @media (max-width: 480px) {
 
     header {
-        flex-direction: column;
+        display: flex;
         gap: 1rem;
         padding: 1rem;
     }
@@ -181,7 +181,17 @@ input, select, textarea {
     }
 
     .nav_icon {
-        margin-left: 0;
+        display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 35px;
+        margin-right: 2rem;
     }
 
     .hero_section {
