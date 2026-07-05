@@ -39,3 +39,37 @@ nav a {
 .menu {
     display: none;
 }
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+        margin-bottom: 0.5rem;
+    }
+
+    .travel {
+        margin: 0;
+        display: none;
+    }
+
+    .nav_icon {
+        display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 0;
+    }
+
+    .menu {
+        display: flex;
+        width: 20%;
+        margin-left: 60%;
+    }
+
+}
