@@ -40,6 +40,7 @@ nav a {
     display: none;
 }
 
+
 @media (max-width: 480px) {
 
     header {
@@ -58,18 +59,26 @@ nav a {
     }
 
     .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 220px;
-        background: #e8f1ff;
-        padding: 1rem;
-    }
+    position: fixed;
+    top: 0;
+    right: -260px;      /* escondido */
+    width: 250px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding: 6rem 2rem;
+
+    background: rgba(232, 241, 255, .95);
+    backdrop-filter: blur(15px);
+
+    transition: right .3s ease;
+}
 
     .menu.active {
-        display: flex;
+        right: 0;
     }
 
     .hamburger {
