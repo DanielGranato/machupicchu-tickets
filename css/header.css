@@ -41,12 +41,22 @@ nav a {
 }
 
 
+@media (max-width: 768px) {
+    header {
+        padding: 0 3rem 0 2rem;
+    }
+    .nav_icon {
+        margin-left: 0.5rem;
+    }
+}
+
+
 @media (max-width: 480px) {
 
     header {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
         margin-bottom: 0.5rem;
-        padding: 1rem 3rem 1rem 1rem;
+        padding: 0.5rem 3rem 0.5rem 1rem;
     }
 
     .travel {
