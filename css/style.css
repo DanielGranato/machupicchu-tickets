@@ -165,19 +165,12 @@ input, select, textarea {
     @media (max-width: 480px) {
 
     header {
-        display: flex;
-        gap: 1rem;
         padding: 1rem;
     }
 
     .travel {
         margin: 0;
         display: none;
-    }
-
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .nav_icon {
@@ -188,10 +181,15 @@ input, select, textarea {
         display: none;
     }
 
+    nav {
+        display: flex;
+        gap: 0;
+    }
+
     .menu {
         display: flex;
-        width: 35px;
-        margin-right: 2rem;
+        width: 20%;
+        margin-left: 60%;
     }
 
     .hero_section {
