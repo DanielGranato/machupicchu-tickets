@@ -59,23 +59,19 @@ nav a {
     }
 
     .menu {
-    position: fixed;
-    top: 0;
-    right: -260px;      /* escondido */
-    width: 250px;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-    padding: 6rem 2rem;
-
-    background: rgba(232, 241, 255, .95);
-    backdrop-filter: blur(15px);
-
-    transition: right .3s ease;
-}
+        position: fixed;
+        top: 0;
+        right: -260px;     
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 6rem 2rem;
+        background: rgba(232, 241, 255, .95);
+        backdrop-filter: blur(15px);
+        transition: right .3s ease;
+    }
 
     .menu.active {
         right: 0;
