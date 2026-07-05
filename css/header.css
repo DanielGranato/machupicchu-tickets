@@ -41,9 +41,9 @@ nav a {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     header {
-        padding: 0 3rem 0 2rem;
+        padding: 1rem 3rem 1rem 2rem;
     }
     .nav_icon {
         margin-left: 0.5rem;
