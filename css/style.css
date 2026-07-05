@@ -66,6 +66,24 @@
     margin-bottom: 50px;
 }
 
+    @media (max-width: 768px) {
+
+        .section2 {
+            margin-left: 1.3rem;
+        }
+
+        .section2_title {
+            width: 40%;
+        }
+
+        .finger_point {
+            margin-top: 2.5rem;
+        }
+
+        .section2_title {
+            margin-top: 2rem;
+        }
+    }
 
     @media (max-width: 480px) {
 

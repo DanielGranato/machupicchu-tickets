@@ -96,8 +96,34 @@ input, select, textarea {
 }
 
 @media (max-width: 768px) {
+    .hero_section{
+        grid-template-columns: 60% 40%;
+        height: auto;
+        min-height: 80vh;
+        background-size: 150%;
+    }
+
+    .hero_title {
+        margin: 10rem auto 1rem 3rem;
+        width: 75%;
+        font-size: 1.5rem;
+    }
+
     form {
-    min-width: 18rem;
+        min-width: 18rem;
+        padding: 1.5rem;
+    }
+
+    .hero_card {
+        margin-right: 1.5rem;
+        gap: 1rem;
+        padding: 1rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .hero_content {
+        margin-top: -10rem;
+        margin-left: 1rem;
     }
     
 }
