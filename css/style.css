@@ -173,10 +173,9 @@ input, select, textarea {
     }
 
     .hero_title {
-        margin: 1.2rem auto;
+        margin: 15rem auto 1rem 2rem;
         width: 70%;
-        text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.1rem;
     }
 
     form {
