@@ -57,23 +57,28 @@ nav a {
         display: none;
     }
 
-    nav a{
+    .menu {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 220px;
+        background: #e8f1ff;
+        padding: 1rem;
     }
 
-    nav {
-        display: flex;
-        gap: 0;
-    }
-
-    menu.active {
+    .menu.active {
         display: flex;
     }
 
     .hamburger {
-        display: flex;
-        margin-left: 60%;
-        background-color: #e8f1ff;
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        border: none;
+        background: none;
+        color: #3175d4;
     }
 
 }
