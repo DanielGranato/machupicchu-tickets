@@ -22,8 +22,8 @@
 
 .section2 {
     margin-left: 4rem;
+    margin-right: 4rem;
     margin-top: -10%;
-    display:flex;
 }
 
 .info {
@@ -54,16 +54,56 @@
     background-color: #6591ef;
 }
 
-.section2_title{
+.section2_slogan{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: #3d3c3c;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+    line-height: 1.8rem;
 }
 
-.finger_point {
-    width: 40px;
-    margin-right: 8px;
-    margin-bottom: 50px;
+.section2-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: #2563eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section2-title::before,
+.section2-title::after {
+    content: "";
+    height: 1px;
+    background-color: #0952b8;
+    flex: 1;
+    max-width: 150px;
+}
+
+.section2_card {
+    border-radius: 10px;
+    background-color: #e8f1ff;
+    padding: 2rem 3rem;
+    color: #0952b8;
+}
+
+.section2_card img {
+    width: 100%;
+    box-shadow: 0 2px 6px rgb(0, 0, 0);
+}
+
+.section2_card_info {
+    display: flex;
+    gap: 2rem;
+}
+
+footer {
+    background-color: #216cd5;
+    height: 200px;
+    margin-top: 20rem;
 }
 
     @media (max-width: 850px) {
@@ -75,10 +115,6 @@
         .section2_title {
             width: 40%;
             margin-top: 2rem;
-        }
-
-        .finger_point {
-            margin-top: 2.5rem;
         }
 
     }
