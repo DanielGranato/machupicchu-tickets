@@ -1,6 +1,7 @@
 
 @import url(header.css);
 @import url(hero.css);
+@import url(footer.css);
 
 * {
     margin: 0;
@@ -118,12 +119,6 @@
     display: flex;
     gap: 3rem;
     margin-bottom: 2rem;
-}
-
-footer {
-    background-color: #216cd5;
-    height: 200px;
-    margin-top: 20rem;
 }
 
     @media (max-width: 850px) {
