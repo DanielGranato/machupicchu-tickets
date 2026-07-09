@@ -151,7 +151,6 @@
         margin-left: 2rem;
         margin-top: 2rem;
         margin-bottom: 3rem;
-        display:flex;
     }
 
     .text {
@@ -160,12 +159,9 @@
         text-align: center;
     }
 
-    .finger_point {
-        width: 15%;
-        height: 15%;
-        margin-right: 1rem;
-        margin-bottom: 3rem;
-    }
+    .section2_slogan {
+            max-width: 100%;
+        }
 
     .section2_title {
         width: 60%;
