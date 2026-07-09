@@ -57,7 +57,7 @@
 
 .section2_slogan{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #3d3c3c;
     margin-top: 0.2rem;
     margin-right: 2rem;
@@ -127,10 +127,21 @@
             margin-left: 1.3rem;
         }
 
+        .section2_slogan {
+            max-width: 60%;
+        }
+
         .section2_title {
             width: 40%;
             margin-top: 2rem;
         }
+
+        .section2_card_info {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            margin-bottom: 2rem;
+}
 
     }
 
