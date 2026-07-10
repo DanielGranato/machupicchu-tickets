@@ -29,8 +29,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 15px;
-    background-color: #e8f1ff;
+    border-radius: 8px;
+    background-color: #e6e6e6;
     padding: 1rem 2rem;
     gap: 2rem;
     color: #0952b8;
@@ -86,13 +86,59 @@ input, select, textarea {
 .button_form {
     padding: 0.6em;
     background-color: #cbced4;
-    border-radius: 8px;
+    border-radius: 5px;
     text-decoration: none;
     color: rgb(9, 9, 9);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
     text-align: center;
     border: none;
+}
+
+.icon {
+    width: 30px;
+}
+
+.location {
+    width: 17px;
+}
+
+.altitude {
+    width: 20px;
+}
+
+.section2 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: -10%;
+}
+
+.info {
+    color: #2563eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text {
+    color: black;
+    font-size: 0.75em;
+    padding-top: 4px;
+}
+
+.button {
+    padding: 0.8em;
+    background-color: #2563eb;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 40px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #6591ef;
 }
 
 @media (max-width: 850px) {
